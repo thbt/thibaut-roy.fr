@@ -1,0 +1,98 @@
+baseurl = "http://thibaut-roy.fr" # Hostname (and path) to the root.
+title = "Thibaut Roy" # Site title.
+theme = "hugo-goa" # Set the theme.
+languagecode = "en" # The site’s language code.
+author = "Thibaut Roy" # Author's name.
+
+paginate = 20 # Default number of pages per page in pagination.
+canonifyurls = true # Enable to turn relative URLs into absolute.
+
+pygmentsstyle = "b2" # Color-theme or style for syntax highlighting.
+pygmentscodefences = true # Enable code fence background highlighting.
+pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
+
+[permalinks]
+    blog  = "blog/:slug/"
+
+
+[params] # theme parameters
+    author = "Thibaut Roy" # Author's name.
+    info = "Software Engineer" # Author's job title or info.
+    intro = "Hello, world!" # Author's job title or info.
+    description = "Software Engineer @ [Amadeus](http://www.amadeus.com)<br>Student @ [UTC](http://www.utc.fr)"
+    # Site description.
+    keywords = "blog,developer,personal" # Site keywords.
+    lang = "en"
+    include_rss = true # include RSS <link> tag in <head> and show RSS icon
+    latestpostscount = 5 # how many posts to display on the home page
+
+    dateform = "Jan 2, 2006"
+    dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
+    email = "hello@thibaut-roy.fr"
+    # extracssfiles = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
+    faviconfile = "images/favicon-32x32.png"
+    # avatar = "img/profile.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+    gravatar = "d2fcaf5aeddbce0601ac12f6f6271dcd" # gravatar hash. see https://en.gravatar.com/site/implement/hash/. do not use in the same time as avatar
+    authorimage = "profile.jpg"
+    dateformat = "Jan 2, 2006"
+    
+    noshowreadtime = false                         # if true, don't show "<x> minutes read" in posts
+    selfintro = ""                            # appears in the site header when set to a non-empty string
+    linkedin = "//linkedin.com/in/thibautroy"
+    github = "//github.com/thbt"
+    twitter = "//twitter.com/ThibautHRoy"
+    instagram = "//instagram.com/thibauthroy"
+    # px500 = "//500px.com/username"
+    # mastodon = "//example.com/@you"
+
+    # disqusShortname = "yourdiscussshortname" # Enable or disable Disqus
+
+    # Whether you want to hide copyright and credits in the footer.
+    hideCredits = false
+    hideCopyright = false
+
+    # Custom CSS
+    custom_css = []
+
+    # RTL support
+    rtl = false
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "thbt"
+instagram = "thibauthroy"
+linkedin = "thibautroy"
+twitter = "thibauthroy"
+stackoverflow = "thbt"
+email = "hello@thibaut-roy.fr"
+
+# # Social links
+# [[params.social]]
+#     name = "Github"
+#     weight = 1
+#     url = "https://github.com/thbt/"
+# [[params.social]]
+#     name = "Twitter"
+#     weight = 2
+#     url = "https://twitter.com/ThibautHRoy/"
+# [[params.social]]
+#     name = "LinkedIn"
+#     weight = 3
+#     url = "https://www.linkedin.com/in/thibautroy/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    identifier = "blog"
+    url = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    identifier = "about"
+    url = "/about/"
