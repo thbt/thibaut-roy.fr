@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Thibaut Roy</title>
+    <link>http://thibaut-roy.fr/posts/</link>
+    <description>Recent content in Posts on Thibaut Roy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 04 Jul 2018 22:30:45 +1000</lastBuildDate>
+    
+	<atom:link href="http://thibaut-roy.fr/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello, world.</title>
+      <link>http://thibaut-roy.fr/posts/hello-world/</link>
+      <pubDate>Wed, 04 Jul 2018 22:30:45 +1000</pubDate>
+      
+      <guid>http://thibaut-roy.fr/posts/hello-world/</guid>
+      <description>Work in progress.</description>
+    </item>
+    
+  </channel>
+</rss>
